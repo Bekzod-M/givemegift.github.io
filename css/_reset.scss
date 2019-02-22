@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: all .2s;
+}
+a,
+a:hover,
+a:focus{
+	color: inherit;
+	text-decoration: none;
+}
+p{
+	margin: 0;
+}
+ul{
+	list-style: none;
+	margin: 0;
+}
+img{
+	max-width: 100%;
+}
+body.modal-open {
+    overflow: auto;
+    padding-right: 0px !important;
+}
+button:focus {
+  outline: none;
+}
+.form-control:focus,
+.btn:focus{
+  box-shadow: none;
+}

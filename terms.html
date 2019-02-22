@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+	<header id="header">
+		<div class="container">
+			<div class="row align-items-center mt_30">
+				<div class="col-2 col-sm-2 col-md-3 col-lg-2">
+					<a href="homepage.html" class="logo"><img src="img/logo.png" alt=""></a>
+					<a href="homepage.html" class="logo-mini"><img src="img/logo-mini.png" alt=""></a>
+				</div>
+				<div class="col-5 col-sm-5 col-md-6 col-lg-8 order">
+					<a href="#" class="burger"></a>
+					<nav class="nav">
+						<a href="#" class="close"><i class="fa fa-close"></i></a>
+						<a href="homepage.html" class="logo-sm"><img src="img/logo.png" alt=""></a>
+						<ul class="menu">
+							<li>
+								<a href="homepage.html" class="navigation d-flex align-items-center">
+									<span class="icon mr_5 font_17"><i class="fa fa-home"></i></span>
+									<p class="hover_text text_uppercase fw_bold">home</p>
+								</a>
+							</li>
+							<li>
+								<a href="explore.html" class="navigation d-flex align-items-center">
+									<span class="icon mr_5 font_17"><i class="fa fa-compass"></i></span>
+									<p class="hover_text text_uppercase fw_bold">explorer</p>
+								</a>
+							</li>
+							<li>
+								<a href="top_list.html" class="navigation d-flex align-items-center">
+									<span class="icon mr_5 font_17"><i class="fa fa-list-alt"></i></span>
+									<p class="hover_text text_uppercase fw_bold">top list</p>
+								</a>
+							</li>
+						</ul>
+						<div class="nav_item mt_60">
+							<p class="hover_text text_uppercase fw_bold"><a href="about_us.html">about us</a></p>
+							<p class="hover_text text_uppercase fw_bold mr_25"><a href="blog.html">blog</a></p>
+						</div>
+					</nav>
+					<div class="navigations">
+						<a href="homepage.html" class="navigation d-flex align-items-center pl_90">
+							<span class="icon mr_5 font_17"><i class="fa fa-home"></i></span>
+							<p class="hover_text text_uppercase fw_bold">home</p>
+						</a>
+						<a href="explore.html" class="navigation d-flex align-items-center ml_20">
+							<span class="icon mr_5 font_17"><i class="fa fa-compass"></i></span>
+							<p class="hover_text text_uppercase fw_bold">explorer</p>
+						</a>
+						<a href="top_list.html" class="navigation d-flex align-items-center ml_20">
+							<span class="icon mr_5 font_17"><i class="fa fa-list-alt"></i></span>
+							<p class="hover_text text_uppercase fw_bold">top list</p>
+						</a>
+					</div>
+				</div>
+				<div class="col-5 col-sm-5 col-md-3 col-lg-2">
+					<div class="autorisation-sm" data-toggle="modal" data-target="#exampleModalCenter"></div>
+					<div class="autorisation">
+						<a href="#" class="hover_text text_uppercase fw_bold" data-toggle="modal" data-target="#exampleModalCenter">sign in</a>
+						<span>/</span>
+						<a href="#" class="hover_text text_uppercase fw_bold" data-toggle="modal" data-target="#exampleModalCenter">sing up</a>
+					</div>
+					<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body d-flex justify-content-around">
+									<div class="login">
+										<div class="caption text_center">
+											<p class="font_30">Log In</p>
+											<i class="small-text">to your account</i>
+										</div>
+										<div class="social_button d-flex justify-content-center py_20">
+											<div class="icon twitter">
+												<a href="#">
+													<i class="fa fa-twitter"></i>
+												</a>
+											</div>
+											<div class="icon facebook mx_10">
+												<a href="#">
+													<i class="fa fa-facebook"></i>
+												</a>
+											</div>
+											<div class="icon google-plus">
+												<a href="#">
+													<i class="fa fa-google-plus"></i>
+												</a>
+											</div>
+										</div>
+										<div class="form">
+											<div class="input pb_20">
+												<i class="fa fa-envelope-o"></i>
+												<input type="text" placeholder="Email Adress" class="form-control pl_30">
+											</div>
+											<div class="input pb_10">
+												<i class="fa fa-lock"></i>
+												<input type="password" placeholder="Password" class="form-control pl_30">
+											</div>
+										</div>
+										<div class="checkbox">
+											<label class="rembember_me">
+												<input type="checkbox" checked="checked">
+												<span class="checkmark"></span>
+												<span class="font_15 dark_gray">Remember Me</span>
+											</label>
+										</div>
+										<div class="button">
+											<button type="button" class="btn btn-primary">LOGIN</button>
+										</div>
+										<div class="forgot pt_20 pb_40">
+											<a href="#">
+												<p class="font_13 text_center text-muted">Forgot Passwod?</p>
+											</a>
+										</div>
+										<div class="or font_15 fw_bold">
+											<i>OR</i>
+										</div>
+									</div>
+									<div class="register">
+										<div class="caption text_center">
+											<p class="font_30">Register</p>
+										</div>
+										<div class="social_button d-flex justify-content-center py_20">
+											<div class="icon twitter">
+												<a href="#">
+													<i class="fa fa-twitter"></i>
+												</a>
+											</div>
+											<div class="icon facebook mx_10">
+												<a href="#">
+													<i class="fa fa-facebook"></i>
+												</a>
+											</div>
+											<div class="icon google-plus">
+												<a href="#">
+													<i class="fa fa-google-plus"></i>
+												</a>
+											</div>
+										</div>
+										<div class="form">
+											<div class="input pb_20">
+												<i class="fa fa-envelope-o"></i>
+												<input type="text" placeholder="Email Adress" class="form-control pl_30">
+											</div>
+											<div class="input pb_20">
+												<i class="fa fa-lock"></i>
+												<input type="password" placeholder="Password" class="form-control pl_30">
+											</div>
+											<div class="input pb_10">
+												<i class="fa fa-lock"></i>
+												<input type="password" placeholder="Confirm Password" class="form-control pl_30">
+											</div>
+										</div>
+										<div class="button">
+											<button type="button" class="btn btn-primary">REGISTER</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="section_about_us">
+		<div class="container medium mt_30 mb_50 px_75 py_40">
+			<div class="row">
+				<div class="col-md-4 block-top d-flex">
+					<div class="social_icons">
+						<a href="#" class="icons_item pb_20">
+							<i class="fa fa-facebook"></i>
+						</a>
+						<a href="#" class="icons_item pb_20">
+							<i class="fa fa-twitter"></i>
+						</a>
+						<a href="#" class="icons_item pb_20">
+							<i class="fa fa-dribbble"></i>
+						</a>
+						<a href="#" class="icons_item">
+							<i class="fa fa-linkedin"></i>
+						</a>
+					</div>
+					<div class="company_info pl_40">
+						<p class="font_18 fw_bold">Company Info</p>
+						<p class="font_18 fw_bold">About FTD Companies</p>
+						<ul class="pl_25 py_25">
+							<li>About FTD</li>
+							<li>About Interflora</li>
+							<li>About ProFlowers</li>
+							<li>About Additional Brands</li>
+						</ul>
+						<p class="font_18 fw_bold">Management</p>
+						<p class="font_18 fw_bold">History</p>
+						<p class="font_18 fw_bold">Privacy Policy</p>
+						<p class="font_18 fw_bold">Terms & Conditions</p>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="terms_conditions">
+						<h2 class="font_26">Givemgift, Inc. - Terms & Conditions</h2>
+						<p class="font_18 pt_20 pb_20">Effective Date: June 6, 2018</p>
+						<p class="font_18">
+							THESE TERMS AND CONDITIONS CONTAIN A BINDING ARBITRATION CLAUSE AND CLASS ACTION WAIVER THAT IMPACT YOUR RIGHTS ABOUT HOW TO RESOLVE DISPUTES. IF YOU LIVE IN THE UNITED STATES, PLEASE READ IT CAREFULLY.
+						</p>
+						<p class="font_18 py_30">
+							Thank you for visiting a website or application provided by FTD Companies, Inc.
+						</p>
+						<p class="font_18">
+							FTD Companies, Inc. and its affiliates ("FTD") currently own or operate the following brands: FTD.COM, FTD, INTERFLORA, the MERCURY MAN Emblem, PROFLOWERS, PROPLANTS, SHARI'S BERRIES, CHERRY MOON FARMS, PERSONAL CREATIONS, REDENVELOPE, FLORIST EXPRESS, GIFTS.COM, SINCERELY, POSTAGRAM, INK and Sesame Gifts, among others. These brands may be updated from time to time by FTD without notice.
+						</p>
+						<p class="font_18 py_30">
+							FTD provides certain products and services through: (a) its various websites including, but not limited to, www.ftd.com, www.proflowers.com, www.proplants.com, www.berries.com, www.cherrymoonfarms.com, www.personalcreations.com, www.roses.com, www.gifts.com, www.sincerely.com, www.postagramapp.com, www.sesamegifts.com and other websites that it may introduce or acquire in the future; (b) various social media accounts including, but not limited to, Facebook, Twitter, Instagram, Pinterest and YouTube; and (c) through FTD's various other messaging, telephone and other forms of communications, mobile technologies, applications and services, in each case, as may be updated by FTD from time to time (collectively, the "FTD Services"). Your use of the FTD Services and any of its information, content and services available through the FTD Services are subject to these terms and conditions ("Terms"), the Privacy Policy, and any applicable site-specific policies included by reference in these Terms.
+						</p>
+						<p class="font_18">
+							These Terms are current as of the Effective Date. FTD reserves the right to change these Terms from time to time. Please consult these Terms from time to time since FTD may, at any time, and without notice, revise these Terms by updating this posting.
+						</p>
+						<p class="font_18">
+							Please read these Terms carefully. By accessing or using the FTD Services, you are bound by these Terms and any revisions, so you should periodically visit this page to review the current Terms. Access or use of the FTD Services following any change to the Terms constitutes your agreement to those changes. If, at any time, you choose not to accept the terms of these Terms, you should not access or use the FTD Services.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row pt_25">
+				<div class="col-12 col-sm-3 col-md-5">
+					<div class="footer_logo">
+						<img src="img/logo.png" alt="" class="logo">
+					</div>
+				</div>
+				<div class="col-12 col-sm-5 col-md-7 f-i">
+					<div class="footer_item">
+						<p class="hover_text text_uppercase fw_bold mr_25"><a href="homepage.html">home</a></p>
+						<p class="hover_text text_uppercase fw_bold mr_25"><a href="blog.html">blog</a></p>
+						<p class="hover_text text_uppercase fw_bold"><a href="about_us.html">about</a></p>
+					</div>
+				</div>
+			</div>
+			<hr class="hr">
+			<div class="row pb_25">
+				<div class="col-12 d-flex justify-content-between">
+					<div class="social_links d-flex">
+						<a href="#" class="icon mr_20"><i class="fa fa-twitter"></i></a>
+						<a href="#" class="icon mr_20"><i class="fa fa-facebook"></i></a>
+						<a href="#" class="icon"><i class="fa fa-instagram"></i></a>
+					</div>
+					<div class="copyright">
+						<a href="terms.html" class="mr_25">Terms</a>
+						<p>© All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="libs/jquery/jquery-3.3.1.min.js"></script>
+	<script src="libs/owlcarousel/owl.carousel.min.js"></script>
+	<script src="libs/bootstrap4/js/popper.min.js"></script>
+	<script src="libs/bootstrap4/js/bootstrap.min.js"></script>
+	<script src="libs/js/script.js"></script>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>

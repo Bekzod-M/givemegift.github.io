@@ -1,0 +1,206 @@
+#header .container {
+	border-top: 3px solid #0392CE4D;
+}
+#header .logo-sm,
+#header .logo{
+	width: 200px;
+	display: block;
+}
+#header .logo-sm{
+	position: absolute;
+	top: 25px;
+}
+#header .autorisation{
+	text-align: right;
+}
+#header .navigation{
+	&:hover{
+		color: $blue;
+		cursor: pointer;
+	}
+}
+#header .modal .rembember_me {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#header .modal .form-control{
+	width: 265px;
+	background-color: $bgc-input;
+}
+#header .modal .form-control:focus {
+	border-color: #CED4DA;
+}
+#header .modal .rembember_me input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+#header .modal .checkmark {
+	position: absolute;
+	top: 7px;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #eee;
+	border-radius: 5px;
+}
+#header .modal .container:hover input ~ .checkmark {
+	background-color: #ccc;
+}
+#header .modal .checkmark:after {
+	content: "\f00c";
+	font-family: FontAwesome;
+	position: absolute;
+	display: none;
+}
+#header .modal .rembember_me input:checked ~ .checkmark:after {
+	display: block;
+}
+#header .modal .rembember_me .checkmark::after {
+	left: 5px;
+	top: -1px;
+	font-size: 18px;
+	color: #37C4FF;
+}
+#header .modal-dialog{
+	max-width: 770px;
+}
+#header .modal-header{
+	padding-top: 16px;
+	padding-right: 16px;
+	padding-bottom: 0;
+	border-bottom: none;
+}
+#header .modal .btn{
+	width: 100%;
+}
+#header .modal .input{
+	position: relative;
+}
+#header .modal .input .fa{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: #95ADB8;
+}
+#header .modal .login::after {
+	content: '';
+	border-right: 2px solid #EBF2F4;
+	display: block;
+	width: 1px;
+	height: 100%;
+	position: absolute;
+	top: -8px;
+	right: 0;
+	left: 50%;
+	z-index: 1;
+}
+#header .modal .login .or{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #EBF2F4;
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	top: 44%;
+	left: 47%;
+	z-index: 2;
+	background: #fff;
+}
+#header .register .button {
+	padding-top: 13px;
+}
+#header .register .btn-primary {
+	color: #fff;
+	background-color: #007bff;
+	border-color: #007bff;
+}
+#header .register .btn-primary:hover {
+	color: #fff;
+	background-color: #0069d9;
+	border-color: #0062cc;
+}
+#header .modal .icon {
+	border: 1px solid #EBF2F4;
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#header .modal .twitter{
+	color: #3CB1FF;
+}
+#header .modal .facebook{
+	color: #3B5998;
+}
+#header .modal .google-plus{
+	color: #DC4E41;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus{
+	box-shadow: 0 0 0 .2rem rgba(0, 123, 255, 0.04);
+}
+#header .navigations{
+	display: flex;
+}
+#header .autorisation-sm,
+#header .burger,
+#header .logo-mini{
+	display: none;
+}
+#header .autorisation-sm{
+	text-align: right;
+}
+#header .autorisation-sm:after{
+	content: '\f007';
+	font-family: 'FontAwesome';
+	font-size: 22px;
+}
+#header .logo-mini{
+	text-align: center;
+}
+#header .burger::after {
+	content: '\f036';
+	font-family: 'FontAwesome';
+	font-size: 22px;
+}
+#header .nav {
+	display: none;
+	width: 240%;
+	background-color: #EBF2F4E6;
+	padding: 60px;
+	padding-top: 20px;
+	height: 100vh;
+	position: absolute;
+	top: -30px;
+	left: -770px;
+	padding-top: 50px;
+	box-sizing: border-box;
+	z-index: 1;
+}
+#header .nav .close {
+	font-size: 25px;
+	color: #3E7B94;
+	right: 30px;
+	top: 25px;
+	position: absolute;
+}
+#header .nav .menu {
+	line-height: 50px;
+	margin-top: 30px;
+}
+#header .nav_item{
+	line-height: 50px;
+	max-width: 80px;
+}

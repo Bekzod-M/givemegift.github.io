@@ -1,0 +1,475 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+	<header id="header">
+		<div class="container">
+			<div class="row align-items-center mt_30">
+				<div class="col-2 col-sm-2 col-md-3 col-lg-2">
+					<a href="homepage.html" class="logo"><img src="img/logo.png" alt=""></a>
+					<a href="homepage.html" class="logo-mini"><img src="img/logo-mini.png" alt=""></a>
+				</div>
+				<div class="col-5 col-sm-5 col-md-6 col-lg-8 order">
+					<a href="#" class="burger"></a>
+					<nav class="nav">
+						<a href="#" class="close"><i class="fa fa-close"></i></a>
+						<a href="homepage.html" class="logo-sm"><img src="img/logo.png" alt=""></a>
+						<ul class="menu">
+							<li>
+								<a href="homepage.html" class="navigation d-flex align-items-center">
+									<span class="icon mr_5 font_17"><i class="fa fa-home"></i></span>
+									<p class="hover_text text_uppercase fw_bold">home</p>
+								</a>
+							</li>
+							<li>
+								<a href="explore.html" class="navigation d-flex align-items-center">
+									<span class="icon mr_5 font_17"><i class="fa fa-compass"></i></span>
+									<p class="hover_text text_uppercase fw_bold">explorer</p>
+								</a>
+							</li>
+							<li>
+								<a href="top_list.html" class="navigation d-flex align-items-center">
+									<span class="icon mr_5 font_17"><i class="fa fa-list-alt"></i></span>
+									<p class="hover_text text_uppercase fw_bold">top list</p>
+								</a>
+							</li>
+						</ul>
+						<div class="nav_item mt_60">
+							<p class="hover_text text_uppercase fw_bold"><a href="about_us.html">about us</a></p>
+							<p class="hover_text text_uppercase fw_bold mr_25"><a href="blog.html">blog</a></p>
+						</div>
+					</nav>
+					<div class="navigations">
+						<a href="homepage.html" class="navigation d-flex align-items-center pl_90">
+							<span class="icon mr_5 font_17"><i class="fa fa-home"></i></span>
+							<p class="hover_text text_uppercase fw_bold">home</p>
+						</a>
+						<a href="explore.html" class="navigation d-flex align-items-center ml_20">
+							<span class="icon mr_5 font_17"><i class="fa fa-compass"></i></span>
+							<p class="hover_text text_uppercase fw_bold">explorer</p>
+						</a>
+						<a href="top_list.html" class="navigation d-flex align-items-center ml_20">
+							<span class="icon mr_5 font_17"><i class="fa fa-list-alt"></i></span>
+							<p class="hover_text text_uppercase fw_bold">top list</p>
+						</a>
+					</div>
+				</div>
+				<div class="col-5 col-sm-5 col-md-3 col-lg-2">
+					<div class="autorisation-sm" data-toggle="modal" data-target="#exampleModalCenter"></div>
+					<div class="autorisation">
+						<a href="#" class="hover_text text_uppercase fw_bold" data-toggle="modal" data-target="#exampleModalCenter">sign in</a>
+						<span>/</span>
+						<a href="#" class="hover_text text_uppercase fw_bold" data-toggle="modal" data-target="#exampleModalCenter">sing up</a>
+					</div>
+					<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body d-flex justify-content-around">
+									<div class="login">
+										<div class="caption text_center">
+											<p class="font_30">Log In</p>
+											<i class="small-text">to your account</i>
+										</div>
+										<div class="social_button d-flex justify-content-center py_20">
+											<div class="icon twitter">
+												<a href="#">
+													<i class="fa fa-twitter"></i>
+												</a>
+											</div>
+											<div class="icon facebook mx_10">
+												<a href="#">
+													<i class="fa fa-facebook"></i>
+												</a>
+											</div>
+											<div class="icon google-plus">
+												<a href="#">
+													<i class="fa fa-google-plus"></i>
+												</a>
+											</div>
+										</div>
+										<div class="form">
+											<div class="input pb_20">
+												<i class="fa fa-envelope-o"></i>
+												<input type="text" placeholder="Email Adress" class="form-control pl_30">
+											</div>
+											<div class="input pb_10">
+												<i class="fa fa-lock"></i>
+												<input type="password" placeholder="Password" class="form-control pl_30">
+											</div>
+										</div>
+										<div class="checkbox">
+											<label class="rembember_me">
+												<input type="checkbox" checked="checked">
+												<span class="checkmark"></span>
+												<span class="font_15 dark_gray">Remember Me</span>
+											</label>
+										</div>
+										<div class="button">
+											<button type="button" class="btn btn-primary">LOGIN</button>
+										</div>
+										<div class="forgot pt_20 pb_40">
+											<a href="#">
+												<p class="font_13 text_center text-muted">Forgot Passwod?</p>
+											</a>
+										</div>
+										<div class="or font_15 fw_bold">
+											<i>OR</i>
+										</div>
+									</div>
+									<div class="register">
+										<div class="caption text_center">
+											<p class="font_30">Register</p>
+										</div>
+										<div class="social_button d-flex justify-content-center py_20">
+											<div class="icon twitter">
+												<a href="#">
+													<i class="fa fa-twitter"></i>
+												</a>
+											</div>
+											<div class="icon facebook mx_10">
+												<a href="#">
+													<i class="fa fa-facebook"></i>
+												</a>
+											</div>
+											<div class="icon google-plus">
+												<a href="#">
+													<i class="fa fa-google-plus"></i>
+												</a>
+											</div>
+										</div>
+										<div class="form">
+											<div class="input pb_20">
+												<i class="fa fa-envelope-o"></i>
+												<input type="text" placeholder="Email Adress" class="form-control pl_30">
+											</div>
+											<div class="input pb_20">
+												<i class="fa fa-lock"></i>
+												<input type="password" placeholder="Password" class="form-control pl_30">
+											</div>
+											<div class="input pb_10">
+												<i class="fa fa-lock"></i>
+												<input type="password" placeholder="Confirm Password" class="form-control pl_30">
+											</div>
+										</div>
+										<div class="button">
+											<button type="button" class="btn btn-primary">REGISTER</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="submenu mt_30 py_40">
+		<div class="container">
+			<ul class="list d-flex justify-content-between">
+				<div class="dropdown">
+					<li class="fw_bold list_item" id="menu1" data-toggle="dropdown">
+						<a href="#">RELATIONSHIP</a>
+						<a href="#" class="dropdown_block">For Mom</a>
+						<a href="#" class="dropdown_block">For Dad</a>
+						<a href="#" class="dropdown_block">Boyfriend</a>
+						<a href="#" class="dropdown_block">Girlfriend</a>
+					</li>
+					<ul class="dropdown-menu mt_10" role="menu" aria-labelledby="menu1">
+						<li class="font_17" role="presentation">
+							<a class="pl_25 py_15 d-block" role="menuitem" tabindex="-1" href="#">
+								For Mom
+							</a>
+						</li>
+						<li class="font_17" role="presentation">
+							<a class="pl_25 py_15 d-block" role="menuitem" tabindex="-1" href="#">
+								For Dad
+							</a>
+						</li>
+						<li class="font_17" role="presentation">
+							<a class="pl_25 py_15 d-block" role="menuitem" tabindex="-1" href="#">
+								Boyfriend
+							</a>
+						</li>
+						<li role="presentation">
+							<a class="pl_25 py_15 d-block" role="menuitem" tabindex="-1" href="#">
+								Girlfriend
+							</a>
+						</li>
+					</ul>
+				</div>
+				<li class="fw_bold list_item"><a href="#">OCCASSIAN</a></li>
+				<li class="fw_bold list_item"><a href="#">AGE GROUP</a></li>
+				<li class="fw_bold list_item"><a href="#">PRODUCT TYPE</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<section class="section_explore">
+		<div class="container pt_50 pb_75">
+			<div class="topbar mb_30">
+				<div class="left-side">
+					<a href="#" class="text_uppercase fw_bold">explore</a>
+					<span class="angle_right"><i class="fa fa-angle-right"></i></span>
+					<a href="#" class="text_uppercase fw_bold">for mom</a>
+				</div>
+				<div class="right-side">
+					<p class="font_17 pb_10">Price Range</p>
+					<div class="price_range">
+						<div class="range d-flex align-items-center">
+							<div class="input"><input type="text" class="form-control"></div>
+							<span class="mx-2">-</span>
+							<div class="input"><input type="text" class="form-control"></div>
+						</div>
+						<div class="tags d-flex">
+							<div class="tag_item ml_10">
+								<input type="checkbox" id="tag1">
+								<label for="tag1">under 25$</label>
+							</div>
+							<div class="tag_item ml_10">
+								<input type="checkbox" id="tag2">
+								<label for="tag2">25$-200$</label>
+							</div>
+							<div class="tag_item ml_10">
+								<input type="checkbox" id="tag3">
+								<label for="tag3">200+</label>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="products">
+				<div class="grid">
+					<div class="grid-items">
+						<div class="card p-2">
+							<img class="card-img-top" style="background-image: url(img/prod1.png);">
+							<div class="card-body">
+								<h5 class="card-title font_15 fw_bold">Our Legacy Splash Jacquard Knit</h5>
+								<i class="card-text text-muted font_12">Black Grey Plants</i>
+								<p class="card-text d-flex justify-content-between">
+									<small class="price">$149</small>
+									<span class="heart-plus-icon">
+										<span class="fa fa-heart fa fa-heart-o"></span>
+										<a href="#"><i class="fa fa-plus-circle ml_5"></i></a>
+									</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="grid-items">
+						<div class="card p-2">
+							<img class="card-img-top" style="background-image: url(img/prod2.png);">
+							<div class="card-body">
+								<h5 class="card-title font_15 fw_bold">
+									Briston Clubmaster Chronograph Watch
+								</h5>
+								<i class="card-text text-muted font_12">Black, Tortoise & Khaki</i>
+								<p class="card-text d-flex justify-content-between">
+									<small class="price">$99</small>
+									<span class="heart-plus-icon">
+										<span class="fa fa-heart fa fa-heart-o"></span>
+										<a href="#"><i class="fa fa-plus-circle ml_5"></i></a>
+									</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="grid-items">
+						<div class="card p-2">
+							<img class="card-img-top" style="background-image: url(img/prod3.png);">
+							<div class="card-body">
+								<h5 class="card-title font_15 fw_bold">Leica M7 135 mm Camera</h5>
+								<i class="card-text text-muted font_12">Black Grey Plants</i>
+								<p class="card-text d-flex justify-content-between">
+									<small class="price">$399</small>
+									<span class="heart-plus-icon">
+										<span class="fa fa-heart fa fa-heart-o"></span>
+										<a href="#"><i class="fa fa-plus-circle ml_5"></i></a>
+									</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="grid-items">
+						<div class="card p-2">
+							<img class="card-img-top" style="background-image: url(img/prod2.png);">
+							<div class="card-body">
+								<h5 class="card-title font_15 fw_bold">
+									Briston Clubmaster Chronograph Watch
+								</h5>
+								<i class="card-text text-muted font_12">Black, Tortoise & Khaki</i>
+								<p class="card-text d-flex justify-content-between">
+									<small class="price">$99</small>
+									<span class="heart-plus-icon">
+										<span class="fa fa-heart fa fa-heart-o"></span>
+										<a href="#"><i class="fa fa-plus-circle ml_5"></i></a>
+									</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="grid-items">
+						<div class="card p-2">
+							<img class="card-img-top" style="background-image: url(img/prod3.png);">
+							<div class="card-body">
+								<h5 class="card-title font_15 fw_bold">Leica M7 135 mm Camera</h5>
+								<i class="card-text text-muted font_12">Black Grey Plants</i>
+								<p class="card-text d-flex justify-content-between">
+									<small class="price">$399</small>
+									<span class="heart-plus-icon">
+										<span class="fa fa-heart fa fa-heart-o"></span>
+										<a href="#"><i class="fa fa-plus-circle ml_5"></i></a>
+									</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="grid-items">
+						<div class="card p-2">
+							<img class="card-img-top" style="background-image: url(img/prod4.png);">
+							<div class="card-body">
+								<h5 class="card-title font_15 fw_bold">
+									Illesteva Murdoch II Sunglasses
+								</h5>
+								<i class="card-text text-muted font_12">Tortoise</i>
+								<p class="card-text d-flex justify-content-between">
+									<small class="price"><s>290</s> $249</small>
+									<span class="heart-plus-icon">
+										<span class="fa fa-heart fa fa-heart-o"></span>
+										<a href="#"><i class="fa fa-plus-circle ml_5"></i></a>
+									</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="grid-items">
+						<div class="card p-2">
+							<img class="card-img-top" style="background-image: url(img/prod5.png);">
+							<div class="card-body">
+								<h5 class="card-title font_15 fw_bold">
+									Journal Standard Tropical Print Hat
+								</h5>
+								<i class="card-text text-muted font_12">Blue</i>
+								<p class="card-text d-flex justify-content-between">
+									<small class="price">$69</small>
+									<span class="heart-plus-icon">
+										<span class="fa fa-heart fa fa-heart-o"></span>
+										<a href="#"><i class="fa fa-plus-circle ml_5"></i></a>
+									</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="grid-items">
+						<div class="card p-2">
+							<img class="card-img-top" style="background-image: url(img/prod6.png);">
+							<div class="card-body">
+								<h5 class="card-title font_15 fw_bold">Grenson Archie V Brogue</h5>
+								<i class="card-text text-muted font_12">Tan</i>
+								<p class="card-text d-flex justify-content-between">
+									<small class="price">$290</small>
+									<span class="heart-plus-icon">
+										<span class="fa fa-heart fa fa-heart-o"></span>
+										<a href="#"><i class="fa fa-plus-circle ml_5"></i></a>
+									</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="grid-items">
+						<div class="card p-2">
+							<img class="card-img-top" style="background-image: url(img/prod5.png);">
+							<div class="card-body">
+								<h5 class="card-title font_15 fw_bold">
+									Journal Standard Tropical Print Hat
+								</h5>
+								<i class="card-text text-muted font_12">Blue</i>
+								<p class="card-text d-flex justify-content-between">
+									<small class="price">$69</small>
+									<span class="heart-plus-icon">
+										<span class="fa fa-heart fa fa-heart-o"></span>
+										<a href="#"><i class="fa fa-plus-circle ml_5"></i></a>
+									</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="grid-items">
+						<div class="card p-2">
+							<img class="card-img-top" style="background-image: url(img/prod6.png);">
+							<div class="card-body">
+								<h5 class="card-title font_15 fw_bold">Grenson Archie V Brogue</h5>
+								<i class="card-text text-muted font_12">Tan</i>
+								<p class="card-text d-flex justify-content-between">
+									<small class="price">$290</small>
+									<span class="heart-plus-icon">
+										<span class="fa fa-heart fa fa-heart-o"></span>
+										<a href="#"><i class="fa fa-plus-circle ml_5"></i></a>
+									</span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="#" class="load_more pt_15 pb_15 d-block text_center">Load more</a>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row pt_25">
+				<div class="col-12 col-sm-3 col-md-5">
+					<div class="footer_logo">
+						<img src="img/logo.png" alt="" class="logo">
+					</div>
+				</div>
+				<div class="col-12 col-sm-5 col-md-7 f-i">
+					<div class="footer_item">
+						<p class="hover_text text_uppercase fw_bold mr_25"><a href="homepage.html">home</a></p>
+						<p class="hover_text text_uppercase fw_bold mr_25"><a href="blog.html">blog</a></p>
+						<p class="hover_text text_uppercase fw_bold"><a href="about_us.html">about</a></p>
+					</div>
+				</div>
+			</div>
+			<hr class="hr">
+			<div class="row pb_25">
+				<div class="col-12 d-flex justify-content-between">
+					<div class="social_links d-flex">
+						<a href="#" class="icon mr_20"><i class="fa fa-twitter"></i></a>
+						<a href="#" class="icon mr_20"><i class="fa fa-facebook"></i></a>
+						<a href="#" class="icon"><i class="fa fa-instagram"></i></a>
+					</div>
+					<div class="copyright">
+						<a href="terms.html" class="mr_25">Terms</a>
+						<p>© All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="libs/jquery/jquery-3.3.1.min.js"></script>
+	<script src="libs/owlcarousel/owl.carousel.min.js"></script>
+	<script src="libs/bootstrap4/js/popper.min.js"></script>
+	<script src="libs/bootstrap4/js/bootstrap.min.js"></script>
+	<script src="libs/js/script.js"></script>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>

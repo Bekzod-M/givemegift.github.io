@@ -1,0 +1,41 @@
+// scss
+
+$primary-col: #3E7B94;
+$border-col: #EBF2F4;
+$bgc-input: #F5F8F9;
+$bgc-body: #F2F2F2;
+$gray-blue: #E2EFF3;
+$light-green: #84CE8B;
+$blue: #0392CE;
+$black: #393D3F;
+$dark-gray: #4A4A4A;
+
+// EBF2F4
+$ff: Karla, Tahoma, sans-serif;
+
+@import 'fonts';
+@import 'reset';
+
+body{
+	font-family: $ff;
+	color: $primary-col;
+	background-color: $bgc-body;
+	// background-color: #ccc;
+}
+@import 'settings';
+
+.hover_text{
+	&:hover{
+		color: $blue;
+	}
+}
+.form-control{
+	&:focus{
+		border-color: $border-col;
+	}
+}
+
+@import 'header';
+@import 'content';
+@import 'sidebar';
+@import 'footer';

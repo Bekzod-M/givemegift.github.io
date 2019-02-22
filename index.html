@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+	<header id="header">
+		<div class="container">
+			<div class="row align-items-center mt_30">
+				<div class="col-2 col-sm-2 col-md-3 col-lg-2">
+					<a href="homepage.html" class="logo"><img src="img/logo.png" alt=""></a>
+					<a href="homepage.html" class="logo-mini"><img src="img/logo-mini.png" alt=""></a>
+				</div>
+				<div class="col-5 col-sm-5 col-md-6 col-lg-8 order">
+					<a href="#" class="burger"></a>
+					<nav class="nav">
+						<a href="#" class="close"><i class="fa fa-close"></i></a>
+						<a href="homepage.html" class="logo-sm"><img src="img/logo.png" alt=""></a>
+						<ul class="menu">
+							<li>
+								<a href="homepage.html" class="navigation d-flex align-items-center">
+									<span class="icon mr_5 font_17"><i class="fa fa-home"></i></span>
+									<p class="hover_text text_uppercase fw_bold">home</p>
+								</a>
+							</li>
+							<li>
+								<a href="explore.html" class="navigation d-flex align-items-center">
+									<span class="icon mr_5 font_17"><i class="fa fa-compass"></i></span>
+									<p class="hover_text text_uppercase fw_bold">explorer</p>
+								</a>
+							</li>
+							<li>
+								<a href="top_list.html" class="navigation d-flex align-items-center">
+									<span class="icon mr_5 font_17"><i class="fa fa-list-alt"></i></span>
+									<p class="hover_text text_uppercase fw_bold">top list</p>
+								</a>
+							</li>
+						</ul>
+						<div class="nav_item mt_60">
+							<p class="hover_text text_uppercase fw_bold"><a href="about_us.html">about us</a></p>
+							<p class="hover_text text_uppercase fw_bold mr_25"><a href="blog.html">blog</a></p>
+						</div>
+					</nav>
+					<div class="navigations">
+						<a href="homepage.html" class="navigation d-flex align-items-center pl_90">
+							<span class="icon mr_5 font_17"><i class="fa fa-home"></i></span>
+							<p class="hover_text text_uppercase fw_bold">home</p>
+						</a>
+						<a href="explore.html" class="navigation d-flex align-items-center ml_20">
+							<span class="icon mr_5 font_17"><i class="fa fa-compass"></i></span>
+							<p class="hover_text text_uppercase fw_bold">explorer</p>
+						</a>
+						<a href="top_list.html" class="navigation d-flex align-items-center ml_20">
+							<span class="icon mr_5 font_17"><i class="fa fa-list-alt"></i></span>
+							<p class="hover_text text_uppercase fw_bold">top list</p>
+						</a>
+					</div>
+				</div>
+				<div class="col-5 col-sm-5 col-md-3 col-lg-2">
+					<div class="autorisation-sm" data-toggle="modal" data-target="#exampleModalCenter"></div>
+					<div class="autorisation">
+						<a href="#" class="hover_text text_uppercase fw_bold" data-toggle="modal" data-target="#exampleModalCenter">sign in</a>
+						<span>/</span>
+						<a href="#" class="hover_text text_uppercase fw_bold" data-toggle="modal" data-target="#exampleModalCenter">sing up</a>
+					</div>
+					<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body d-flex justify-content-around">
+									<div class="login">
+										<div class="caption text_center">
+											<p class="font_30">Log In</p>
+											<i class="small-text">to your account</i>
+										</div>
+										<div class="social_button d-flex justify-content-center py_20">
+											<div class="icon twitter">
+												<a href="#">
+													<i class="fa fa-twitter"></i>
+												</a>
+											</div>
+											<div class="icon facebook mx_10">
+												<a href="#">
+													<i class="fa fa-facebook"></i>
+												</a>
+											</div>
+											<div class="icon google-plus">
+												<a href="#">
+													<i class="fa fa-google-plus"></i>
+												</a>
+											</div>
+										</div>
+										<div class="form">
+											<div class="input pb_20">
+												<i class="fa fa-envelope-o"></i>
+												<input type="text" placeholder="Email Adress" class="form-control pl_30">
+											</div>
+											<div class="input pb_10">
+												<i class="fa fa-lock"></i>
+												<input type="password" placeholder="Password" class="form-control pl_30">
+											</div>
+										</div>
+										<div class="checkbox">
+											<label class="rembember_me">
+												<input type="checkbox" checked="checked">
+												<span class="checkmark"></span>
+												<span class="font_15 dark_gray">Remember Me</span>
+											</label>
+										</div>
+										<div class="button">
+											<button type="button" class="btn btn-primary">LOGIN</button>
+										</div>
+										<div class="forgot pt_20 pb_40">
+											<a href="#">
+												<p class="font_13 text_center text-muted">Forgot Passwod?</p>
+											</a>
+										</div>
+										<div class="or font_15 fw_bold">
+											<i>OR</i>
+										</div>
+									</div>
+									<div class="register">
+										<div class="caption text_center">
+											<p class="font_30">Register</p>
+										</div>
+										<div class="social_button d-flex justify-content-center py_20">
+											<div class="icon twitter">
+												<a href="#">
+													<i class="fa fa-twitter"></i>
+												</a>
+											</div>
+											<div class="icon facebook mx_10">
+												<a href="#">
+													<i class="fa fa-facebook"></i>
+												</a>
+											</div>
+											<div class="icon google-plus">
+												<a href="#">
+													<i class="fa fa-google-plus"></i>
+												</a>
+											</div>
+										</div>
+										<div class="form">
+											<div class="input pb_20">
+												<i class="fa fa-envelope-o"></i>
+												<input type="text" placeholder="Email Adress" class="form-control pl_30">
+											</div>
+											<div class="input pb_20">
+												<i class="fa fa-lock"></i>
+												<input type="password" placeholder="Password" class="form-control pl_30">
+											</div>
+											<div class="input pb_10">
+												<i class="fa fa-lock"></i>
+												<input type="password" placeholder="Confirm Password" class="form-control pl_30">
+											</div>
+										</div>
+										<div class="button">
+											<button type="button" class="btn btn-primary">REGISTER</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="section_home mt_30">
+		<div class="container mb_40">
+			<div class="left_block p-3">
+				<div class="search">
+					<div class="input">
+						<input type="text" class="form-control" placeholder="Search">
+					</div>
+					<div class="icon_search">
+						<a href="#"><i class="fa fa-search"></i></a>
+					</div>
+				</div>
+				<div class="contacts mt_10 d-flex">
+					<div class="save_contacts mr_10">
+						<button type="button" class="btn">Save contacts</button>
+					</div>
+					<div class="add_contacts">
+						<div class="icon_plus">
+							<a href="#"><i class="fa fa-plus"></i></a>
+						</div>
+						<div class="button">
+							<button type="button" class="btn pl_25">Add contact</button>
+						</div>
+					</div>
+				</div>
+				<div class="personal_icon pt_165 text_center">
+					<a href="#">
+						<span><img src="img/presonal_icon_lb.svg" alt=""></span>
+						<p class="font_17 pt_15">
+							You can add your <br>
+							relatives here
+						</p>
+					</a>
+				</div>
+			</div>
+			<div class="products products-modal">
+				<div class="row">
+					<div class="col-md-12 col-lg-6 col-xl-4">
+						<div class="card p-2">
+							<img class="card-img-top" data-toggle="modal" data-target="#modalproduct1" style="background-image: url(img/prod1.png);">
+							<div class="card-body">
+								<div class="data-toogle" data-toggle="modal" data-target="#modalproduct1">
+									<h5 class="card-title font_15 fw_bold">Our Legacy Splash Jacquard Knit</h5>
+									<i class="card-text text-muted font_12">Black Grey Plants</i>
+								</div>
+								<p class="card-text d-flex justify-content-between">
+									<small class="price">$149</small>
+									<span class="heart-plus-icon">
+										<span class="fa fa-heart fa fa-heart-o"></span>
+										<a href="#"><i class="fa fa-plus-circle ml_5"></i></a>
+									</span>
+								</p>
+							</div>
+						</div>
+						<!-- Modal -->
+						<div class="modal fade" id="modalproduct1" tabindex="-1" role="dialog" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-product d-flex">
+										<div class="modal-product-item-l">
+											<div class="modal-product-img"><img src="img/modal-product-img.png" alt=""></div>
+											<div class="social_buttons">
+												<div class="icons download mb_20"><a href="#"><i class="fa fa-upload"></i></a></div>
+												<div class="icons twitter mb_10"><a href="#"><i class="fa fa-twitter"></i></a></div>
+												<div class="icons facebook mb_10"><a href="#"><i class="fa fa-facebook"></i></a></div>
+												<div class="icons google-plus mb_10"><a href="#"><i class="fa fa-google-plus"></i></a></div>
+											</div>
+										</div>
+										<div class="modal-product-item-r py_15 px_30">
+											<div class="modal-product-btn d-flex">
+												<div class="button">
+													<button type="button" class="btn btn-wishlist">Added wishlist</button>
+												</div>
+												<div class="heart-icon ml_10">
+													<span class="fa fa-heart fa fa-heart-o"></span>
+												</div>
+											</div>
+											<div class="modal-product-desc">
+												<div class="caption mt_25">
+													<p class="font_11 fw_bold light_gray">ACNE STUDIOS</p>
+													<p class="font_32 fw_bold">Granville Linen Navy</p>
+												</div>
+												<div class="description">
+													<span class="font_10 fw_bold">DESCRIPTION</span>
+													<p class="font_17 pt_10">
+														Acne Studios Granville Linen Navy is a classic jersey t -shirt in a fine linen with a grainy yet soft feel.
+													</p>
+												</div>
+												<ul class="list">
+													<li>Round neckline</li>
+													<li>Single chest patch pocket</li>
+													<li>100% Flax/Linen </li>
+												</ul>
+												<div class="store d-flex align-items-center mt_25">
+													<div class="cost font_13 fw_bold">$140</div>
+													<div class="button">
+														<button type="button" class="btn btn-wishlist">
+															<span class="font_12 fw_bold">GO TO STORE</span>
+														</button>
+													</div>
+												</div>
+											</div>
+											<div class="related-items mobile">
+												<h3 class="h3">Related items</h3>
+												<div class="owl-carousel related">
+													<ul>
+														<li>
+															<a href="javascript:void(0)" class="link">
+																<div class="image"><img src="img/ri1.png" alt=""></div>
+																<div class="desc">
+																	Ally Capellino Arron Holdoll
+																	<p>from Amazon</p>
+																	$196
+																</div>
+															</a>
+														</li>
+														<li>
+															<a href="javascript:void(0)" class="link">
+																<div class="image"><img src="img/ri1.png" alt=""></div>
+																<div class="desc">
+																	Alden Crepo Sole Plain Toe Boot.
+																	<p>from Amazon</p>
+																	$196
+																</div>
+															</a>
+														</li>
+														<li>
+															<a href="javascript:void(0)" class="link">
+																<div class="image"><img src="img/ri1.png" alt=""></div>
+																<div class="desc">
+																	Ally Capellino Arron Holdoll
+																	<p>from Amazon</p>
+																	$196
+																</div>
+															</a>
+														</li>
+														<li>
+															<a href="javascript:void(0)" class="link">
+																<div class="image"><img src="img/ri1.png" alt=""></div>
+																<div class="desc">
+																	Ally Capellino Arron Holdoll
+																	<p>from Amazon</p>
+																	$196
+																</div>
+															</a>
+														</li>
+													</ul>
+													<ul>
+														<li>
+															<a href="javascript:void(0)" class="link">
+																<div class="image"><img src="img/ri1.png" alt=""></div>
+																<div class="desc">
+																	Alden Crepo Sole Plain Toe Boot.
+																	<p>from Amazon</p>
+																	$196
+																</div>
+															</a>
+														</li>
+														<li>
+															<a href="javascript:void(0)" class="link">
+																<div class="image"><img src="img/ri1.png" alt=""></div>
+																<div class="desc">
+																	Ally Capellino Arron Holdoll
+																	<p>from Amazon</p>
+																	$196
+																</div>
+															</a>
+														</li>
+														<li>
+															<a href="javascript:void(0)" class="link">
+																<div class="image"><img src="img/ri1.png" alt=""></div>
+																<div class="desc">
+																	Ally Capellino Arron Holdoll
+																	<p>from Amazon</p>
+																	$196
+																</div>
+															</a>
+														</li>
+														<li>
+															<a href="javascript:void(0)" class="link">
+																<div class="image"><img src="img/ri1.png" alt=""></div>
+																<div class="desc">
+																	Ally Capellino Arron Holdoll
+																	<p>from Amazon</p>
+																	$196
+																</div>
+															</a>
+														</li>
+													</ul>
+													<ul>
+														<li>
+															<a href="javascript:void(0)" class="link">
+																<div class="image"><img src="img/ri1.png" alt=""></div>
+																<div class="desc">
+																	Ally Capellino Arron Holdoll
+																	<p>from Amazon</p>
+																	$196
+																</div>
+															</a>
+														</li>
+														<li>
+															<a href="javascript:void(0)" class="link">
+																<div class="image"><img src="img/ri1.png" alt=""></div>
+																<div class="desc">
+																	Ally Capellino Arron Holdoll
+																	<p>from Amazon</p>
+																	$196
+																</div>
+															</a>
+														</li>
+														<li>
+															<a href="javascript:void(0)" class="link">
+																<div class="image"><img src="img/ri1.png" alt=""></div>
+																<div class="desc">
+																	Ally Capellino Arron Holdoll
+																	<p>from Amazon</p>
+																	$196
+																</div>
+															</a>
+														</li>
+														<li>
+															<a href="javascript:void(0)" class="link">
+																<div class="image"><img src="img/ri1.png" alt=""></div>
+																<div class="desc">
+																	Ally Capellino Arron Holdoll
+																	<p>from Amazon</p>
+																	$196
+																</div>
+															</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="dismiss">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 col-lg-6 col-xl-4">
+						<div class="card p-2">
+							<img class="card-img-top" data-toggle="modal" data-target="#modalproduct2" style="background-image: url(img/prod2.png);">
+							<div class="card-body">
+								<h5 class="card-title font_15 fw_bold" data-toggle="modal" data-target="#modalproduct2">
+									Briston Clubmaster Chronograph Watch
+								</h5>
+								<i class="card-text text-muted font_12">Black, Tortoise & Khaki</i>
+								<p class="card-text d-flex justify-content-between">
+									<small class="price">$99</small>
+									<span class="heart-plus-icon">
+										<span class="fa fa-heart fa fa-heart-o"></span>
+										<a href="#"><i class="fa fa-plus-circle ml_5"></i></a>
+									</span>
+								</p>
+							</div>
+						</div>
+						<!-- Modal -->
+						<div class="modal fade" id="modalproduct2" tabindex="-1" role="dialog" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-product d-flex">
+										<div class="modal-product-item-l">
+											<div class="modal-product-img"><img src="img/modal-product-img.png" alt=""></div>
+											<div class="social_buttons">
+												<div class="icons download mb_20"><a href="#"><i class="fa fa-upload"></i></a></div>
+												<div class="icons twitter mb_10"><a href="#"><i class="fa fa-twitter"></i></a></div>
+												<div class="icons facebook mb_10"><a href="#"><i class="fa fa-facebook"></i></a></div>
+												<div class="icons google-plus mb_10"><a href="#"><i class="fa fa-google-plus"></i></a></div>
+											</div>
+										</div>
+										<div class="modal-product-item-r py_15 px_30">
+											<div class="modal-product-btn d-flex">
+												<div class="button">
+													<button type="button" class="btn btn-wishlist">Added wishlist</button>
+												</div>
+												<div class="heart-icon ml_10">
+													<span class="fa fa-heart fa fa-heart-o"></span>
+												</div>
+											</div>
+											<div class="modal-product-desc">
+												<div class="caption mt_25">
+													<p class="font_11 fw_bold light_gray">ACNE STUDIOS</p>
+													<p class="font_32 fw_bold">Granville Linen Navy</p>
+												</div>
+												<div class="description">
+													<span class="font_10 fw_bold">DESCRIPTION</span>
+													<p class="font_17 pt_10">
+														Acne Studios Granville Linen Navy is a classic jersey t -shirt in a fine linen with a grainy yet soft feel.
+													</p>
+												</div>
+												<ul class="list">
+													<li>Round neckline</li>
+													<li>Single chest patch pocket</li>
+													<li>100% Flax/Linen </li>
+												</ul>
+												<div class="store d-flex align-items-center mt_25">
+													<div class="cost font_13 fw_bold">$140</div>
+													<div class="button">
+														<button type="button" class="btn btn-wishlist">
+															<span class="font_12 fw_bold">GO TO STORE</span>
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="dismiss">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 col-lg-6 col-xl-4">
+						<div class="card p-2">
+							<img class="card-img-top" data-toggle="modal" data-target="#modalproduct3" style="background-image: url(img/prod3.png);">
+							<div class="card-body">
+								<div class="data-toogle" data-toggle="modal" data-target="#modalproduct3">
+									<h5 class="card-title font_15 fw_bold">Leica M7 135 mm Camera</h5>
+									<i class="card-text text-muted font_12">Black Grey Plants</i>
+								</div>
+								<p class="card-text d-flex justify-content-between">
+									<small class="price">$399</small>
+									<span class="heart-plus-icon">
+										<span class="fa fa-heart fa fa-heart-o"></span>
+										<a href="#"><i class="fa fa-plus-circle ml_5"></i></a>
+									</span>
+								</p>
+							</div>
+						</div>
+						<!-- Modal -->
+						<div class="modal fade" id="modalproduct3" tabindex="-1" role="dialog" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-product d-flex">
+										<div class="modal-product-item-l">
+											<div class="modal-product-img"><img src="img/modal-product-img.png" alt=""></div>
+											<div class="social_buttons">
+												<div class="icons download mb_20"><a href="#"><i class="fa fa-upload"></i></a></div>
+												<div class="icons twitter mb_10"><a href="#"><i class="fa fa-twitter"></i></a></div>
+												<div class="icons facebook mb_10"><a href="#"><i class="fa fa-facebook"></i></a></div>
+												<div class="icons google-plus mb_10"><a href="#"><i class="fa fa-google-plus"></i></a></div>
+											</div>
+										</div>
+										<div class="modal-product-item-r py_15 px_30">
+											<div class="modal-product-btn d-flex">
+												<div class="button">
+													<button type="button" class="btn btn-wishlist">Added wishlist</button>
+												</div>
+												<div class="heart-icon ml_10">
+													<span class="fa fa-heart fa fa-heart-o"></span>
+												</div>
+											</div>
+											<div class="modal-product-desc">
+												<div class="caption mt_25">
+													<p class="font_11 fw_bold light_gray">ACNE STUDIOS</p>
+													<p class="font_32 fw_bold">Granville Linen Navy</p>
+												</div>
+												<div class="description">
+													<span class="font_10 fw_bold">DESCRIPTION</span>
+													<p class="font_17 pt_10">
+														Acne Studios Granville Linen Navy is a classic jersey t -shirt in a fine linen with a grainy yet soft feel.
+													</p>
+												</div>
+												<ul class="list">
+													<li>Round neckline</li>
+													<li>Single chest patch pocket</li>
+													<li>100% Flax/Linen </li>
+												</ul>
+												<div class="store d-flex align-items-center mt_25">
+													<div class="cost font_13 fw_bold">$140</div>
+													<div class="button">
+														<button type="button" class="btn btn-wishlist">
+															<span class="font_12 fw_bold">GO TO STORE</span>
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="dismiss">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 col-lg-6 col-xl-4">
+						<div class="card p-2">
+							<img class="card-img-top" data-toggle="modal" data-target="#modalproduct4" style="background-image: url(img/prod4.png);">
+							<div class="card-body">
+								<h5 class="card-title font_15 fw_bold" data-toggle="modal" data-target="#modalproduct4">
+									Illesteva Murdoch II Sunglasses
+								</h5>
+								<i class="card-text text-muted font_12">Tortoise</i>
+								<p class="card-text d-flex justify-content-between">
+									<small class="price"><s>290</s> $249</small>
+									<span class="heart-plus-icon">
+										<span class="fa fa-heart fa fa-heart-o"></span>
+										<a href="#"><i class="fa fa-plus-circle ml_5"></i></a>
+									</span>
+								</p>
+							</div>
+						</div>
+						<!-- Modal -->
+						<div class="modal fade" id="modalproduct4" tabindex="-1" role="dialog" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-product d-flex">
+										<div class="modal-product-item-l">
+											<div class="modal-product-img"><img src="img/modal-product-img.png" alt=""></div>
+											<div class="social_buttons">
+												<div class="icons download mb_20"><a href="#"><i class="fa fa-upload"></i></a></div>
+												<div class="icons twitter mb_10"><a href="#"><i class="fa fa-twitter"></i></a></div>
+												<div class="icons facebook mb_10"><a href="#"><i class="fa fa-facebook"></i></a></div>
+												<div class="icons google-plus mb_10"><a href="#"><i class="fa fa-google-plus"></i></a></div>
+											</div>
+										</div>
+										<div class="modal-product-item-r py_15 px_30">
+											<div class="modal-product-btn d-flex">
+												<div class="button">
+													<button type="button" class="btn btn-wishlist">Added wishlist</button>
+												</div>
+												<div class="heart-icon ml_10">
+													<span class="fa fa-heart fa fa-heart-o"></span>
+												</div>
+											</div>
+											<div class="modal-product-desc">
+												<div class="caption mt_25">
+													<p class="font_11 fw_bold light_gray">ACNE STUDIOS</p>
+													<p class="font_32 fw_bold">Granville Linen Navy</p>
+												</div>
+												<div class="description">
+													<span class="font_10 fw_bold">DESCRIPTION</span>
+													<p class="font_17 pt_10">
+														Acne Studios Granville Linen Navy is a classic jersey t -shirt in a fine linen with a grainy yet soft feel.
+													</p>
+												</div>
+												<ul class="list">
+													<li>Round neckline</li>
+													<li>Single chest patch pocket</li>
+													<li>100% Flax/Linen </li>
+												</ul>
+												<div class="store d-flex align-items-center mt_25">
+													<div class="cost font_13 fw_bold">$140</div>
+													<div class="button">
+														<button type="button" class="btn btn-wishlist">
+															<span class="font_12 fw_bold">GO TO STORE</span>
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="dismiss">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 col-lg-6 col-xl-4">
+						<div class="card p-2">
+							<img class="card-img-top" data-toggle="modal" data-target="#modalproduct5" style="background-image: url(img/prod5.png);">
+							<div class="card-body">
+								<h5 class="card-title font_15 fw_bold" data-toggle="modal" data-target="#modalproduct5">
+									Journal Standard Tropical Print Hat
+								</h5>
+								<i class="card-text text-muted font_12">Blue</i>
+								<p class="card-text d-flex justify-content-between">
+									<small class="price">$69</small>
+									<span class="heart-plus-icon">
+										<span class="fa fa-heart fa fa-heart-o"></span>
+										<a href="#"><i class="fa fa-plus-circle ml_5"></i></a>
+									</span>
+								</p>
+							</div>
+						</div>
+						<!-- Modal -->
+						<div class="modal fade" id="modalproduct5" tabindex="-1" role="dialog" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-product d-flex">
+										<div class="modal-product-item-l">
+											<div class="modal-product-img"><img src="img/modal-product-img.png" alt=""></div>
+											<div class="social_buttons">
+												<div class="icons download mb_20"><a href="#"><i class="fa fa-upload"></i></a></div>
+												<div class="icons twitter mb_10"><a href="#"><i class="fa fa-twitter"></i></a></div>
+												<div class="icons facebook mb_10"><a href="#"><i class="fa fa-facebook"></i></a></div>
+												<div class="icons google-plus mb_10"><a href="#"><i class="fa fa-google-plus"></i></a></div>
+											</div>
+										</div>
+										<div class="modal-product-item-r py_15 px_30">
+											<div class="modal-product-btn d-flex">
+												<div class="button">
+													<button type="button" class="btn btn-wishlist">Added wishlist</button>
+												</div>
+												<div class="heart-icon ml_10">
+													<span class="fa fa-heart fa fa-heart-o"></span>
+												</div>
+											</div>
+											<div class="modal-product-desc">
+												<div class="caption mt_25">
+													<p class="font_11 fw_bold light_gray">ACNE STUDIOS</p>
+													<p class="font_32 fw_bold">Granville Linen Navy</p>
+												</div>
+												<div class="description">
+													<span class="font_10 fw_bold">DESCRIPTION</span>
+													<p class="font_17 pt_10">
+														Acne Studios Granville Linen Navy is a classic jersey t -shirt in a fine linen with a grainy yet soft feel.
+													</p>
+												</div>
+												<ul class="list">
+													<li>Round neckline</li>
+													<li>Single chest patch pocket</li>
+													<li>100% Flax/Linen </li>
+												</ul>
+												<div class="store d-flex align-items-center mt_25">
+													<div class="cost font_13 fw_bold">$140</div>
+													<div class="button">
+														<button type="button" class="btn btn-wishlist">
+															<span class="font_12 fw_bold">GO TO STORE</span>
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="dismiss">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 col-lg-6 col-xl-4">
+						<div class="card p-2">
+							<img class="card-img-top" data-toggle="modal" data-target="#modalproduct6" style="background-image: url(img/prod6.png);">
+							<div class="card-body">
+								<div class="data-toogle" data-toggle="modal" data-target="#modalproduct6">
+									<h5 class="card-title font_15 fw_bold">Grenson Archie V Brogue</h5>
+									<i class="card-text text-muted font_12">Tan</i>
+								</div>
+								<p class="card-text d-flex justify-content-between">
+									<small class="price">$290</small>
+									<span class="heart-plus-icon">
+										<span class="fa fa-heart fa fa-heart-o"></span>
+										<a href="#"><i class="fa fa-plus-circle ml_5"></i></a>
+									</span>
+								</p>
+							</div>
+						</div>
+						<!-- Modal -->
+						<div class="modal fade" id="modalproduct6" tabindex="-1" role="dialog" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-product d-flex">
+										<div class="modal-product-item-l">
+											<div class="modal-product-img"><img src="img/modal-product-img.png" alt=""></div>
+											<div class="social_buttons">
+												<div class="icons download mb_20"><a href="#"><i class="fa fa-upload"></i></a></div>
+												<div class="icons twitter mb_10"><a href="#"><i class="fa fa-twitter"></i></a></div>
+												<div class="icons facebook mb_10"><a href="#"><i class="fa fa-facebook"></i></a></div>
+												<div class="icons google-plus mb_10"><a href="#"><i class="fa fa-google-plus"></i></a></div>
+											</div>
+										</div>
+										<div class="modal-product-item-r py_15 px_30">
+											<div class="modal-product-btn d-flex">
+												<div class="button">
+													<button type="button" class="btn btn-wishlist">Added wishlist</button>
+												</div>
+												<div class="heart-icon ml_10">
+													<span class="fa fa-heart fa fa-heart-o"></span>
+												</div>
+											</div>
+											<div class="modal-product-desc">
+												<div class="caption mt_25">
+													<p class="font_11 fw_bold light_gray">ACNE STUDIOS</p>
+													<p class="font_32 fw_bold">Granville Linen Navy</p>
+												</div>
+												<div class="description">
+													<span class="font_10 fw_bold">DESCRIPTION</span>
+													<p class="font_17 pt_10">
+														Acne Studios Granville Linen Navy is a classic jersey t -shirt in a fine linen with a grainy yet soft feel.
+													</p>
+												</div>
+												<ul class="list">
+													<li>Round neckline</li>
+													<li>Single chest patch pocket</li>
+													<li>100% Flax/Linen </li>
+												</ul>
+												<div class="store d-flex align-items-center mt_25">
+													<div class="cost font_13 fw_bold">$140</div>
+													<div class="button">
+														<button type="button" class="btn btn-wishlist">
+															<span class="font_12 fw_bold">GO TO STORE</span>
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="dismiss">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="#" class="load_more pt_15 pb_15 d-block text_center">Load more</a>
+			</div>
+			<div class="right_block ml_30">
+				<div class="personal_icon pt_265 text_center">
+					<a href="#">
+						<span><img src="img/presonal_icon_rb.svg" alt=""></span>
+						<p class="font_17 pt_15 pb_10">
+							Personal information <br>
+							of your relatives
+						</p>
+					</a>
+					<a href="#" class="watch_video font_17">
+						Watch Video
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row pt_25">
+				<div class="col-12 col-sm-3 col-md-5">
+					<div class="footer_logo">
+						<img src="img/logo.png" alt="" class="logo">
+					</div>
+				</div>
+				<div class="col-12 col-sm-5 col-md-7 f-i">
+					<div class="footer_item">
+						<p class="hover_text text_uppercase fw_bold mr_25"><a href="homepage.html">home</a></p>
+						<p class="hover_text text_uppercase fw_bold mr_25"><a href="blog.html">blog</a></p>
+						<p class="hover_text text_uppercase fw_bold"><a href="about_us.html">about</a></p>
+					</div>
+				</div>
+			</div>
+			<hr class="hr">
+			<div class="row pb_25">
+				<div class="col-12 d-flex justify-content-between">
+					<div class="social_links d-flex">
+						<a href="#" class="icon mr_20"><i class="fa fa-twitter"></i></a>
+						<a href="#" class="icon mr_20"><i class="fa fa-facebook"></i></a>
+						<a href="#" class="icon"><i class="fa fa-instagram"></i></a>
+					</div>
+					<div class="copyright">
+						<a href="terms.html" class="mr_25">Terms</a>
+						<p>© All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="libs/jquery/jquery-3.3.1.min.js"></script>
+	<script src="libs/jquery/jquery.sticky-kit.min.js"></script>
+	<script src="libs/owlcarousel/owl.carousel.min.js"></script>
+	<script src="libs/bootstrap4/js/popper.min.js"></script>
+	<script src="libs/bootstrap4/js/bootstrap.min.js"></script>
+	<script src="libs/js/script.js"></script>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>

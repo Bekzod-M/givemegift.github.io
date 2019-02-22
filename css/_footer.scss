@@ -1,0 +1,24 @@
+.footer{
+	background-color: #fff;
+	margin-top: 70px;
+}
+.footer .logo{
+	width: 109px;
+}
+.footer .hr{
+	background: #E3E3E3;
+}
+.footer .footer_item{
+	display: flex;
+}
+.footer .copyright{
+	display: flex;
+}
+.footer .btn.add-contact {
+	display: none;
+    background: #0392CE;
+    color: #fff;
+    width: 100%;
+    border-radius: 0;
+    height: 60px;
+}
